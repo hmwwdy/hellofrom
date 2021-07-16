@@ -1,0 +1,218 @@
+/*
+font-family: cairo \ comfortaa
+color: rwed \ #21455e
+*/
+body{
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	width: 100%;
+	height: 70px;
+	background-color: wheat;
+}
+.navbar p{
+	font-size: 40px;
+	font-family: comfortaa;
+	float: left;
+	margin-top: 0;
+	padding: 10px;
+	color: #21455e;
+}
+.navbar ul{
+	list-style-type: none;
+	float: left;
+	margin-right: 45%;
+	width: 40%;
+	margin-top: 30px;
+}
+.navbar ul li{
+	display: inline;
+	margin-left: 3%;
+	font-family: comfortaa;
+	color: #21455e;
+}
+.navbar ul li:hover{
+	color: red;
+}
+
+/* header */
+
+.header{
+	width: 100%;
+	height: 520px;
+	background-image: url(images/photo11.jpg);
+	background-size: cover;
+	position: relative;
+}
+
+.opacity{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.3;
+}
+
+.header p{
+	position: absolute;
+	top: 100px;
+	left: 32%;
+	color: white;
+	font-family: comfortaa;
+	font-size: 50px;
+	border-bottom: solid red;
+}
+
+
+/* about */
+
+.about{
+	height: 500px;
+	position: 80px 0;
+}
+
+.about p{
+	width: 45%;
+	font-family: cairo;
+	font-size: 20px;
+	float: left;
+	margin-left: 28%;
+	text-align: center;
+	
+	
+}
+
+.about p span{
+	display: block;
+	font-family: comfortaa;
+	font-size: 38px;
+	color: #21455e;
+	border-bottom: solid thin red;
+	text-align: center;
+	width: 33%;
+	margin-bottom: 20px;
+	margin-left: 31%;
+
+}
+
+/* services */
+
+/* .services{
+	padding: 80px 0;
+	background-image: url(images/bedroom7.jpg);
+	background-size: cover;
+	position: relative;
+	height: 450px;
+	margin: 4% 0 0;
+}
+
+.services .opacity{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity:.7;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.services span{
+	color: white;
+	font-size: 50px;
+	font-family: comfortaa;
+	border-bottom: solid thin red;
+	position: absolute;
+	left: 42%;
+	z-index: 2;
+
+}
+
+.services .opacity .item {
+	width: 20%;
+	height: 300px;
+	color: white;
+	font-family: Karla;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 300px;
+	margin-left: 4%;
+	float: left;
+}
+
+.services .opacity .item i{
+	background-color: red;
+	padding: 10px; 
+}*/
+
+/* uor works */
+
+.our-works{
+	padding: 100px 0;
+}
+
+.our-works span {
+	color: #21455e;
+	font-size: 50px;
+	font-family: comfortaa;
+	border-bottom: solid thin red;
+	text-transform: uppercase;
+	margin-left: 42%;
+}
+
+
+
+.our-works img {
+	width: 25%;
+	height: 250px;
+	margin: 4% 0 0 6.5%;
+}
+
+.our-works p {
+	color: #21455e;
+	font-size: 20px;
+	font-family: comfortaa;
+	margin-left: 42%;
+}
+
+/* contact us */
+
+.contact-us{
+	padding: 100px 0;
+}
+
+.contact-us .item{
+	width: 25%;
+	height: 100px;
+	float: left;
+	box-shadow: 0 0 20px black;
+	margin-left: 6%;
+	text-align: center;
+	font-family: Karla;
+	padding-top: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #21455e;
+}
+
+.contact-us ul{
+	list-style-type: none;
+	margin-top: 200px;
+	margin-left: 38%;
+
+}
+
+.contact-us ul li{
+	display: inline;
+	margin-left: 4%;
+	color: #C34A2C;
+}
+
+.copyright{
+	width: 100%;
+	background-color: #544E4F;
+	color: white;
+	padding: 12px 0;
+	text-align: center;
+	font-family: Karla;
+	font-size: 18px;
+}
